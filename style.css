@@ -1,0 +1,104 @@
+* {
+  font-family: 'Protest Riot', sans-serif;
+  /* text-align: center; */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 700px;        /* Set the width */
+  margin: 0 auto;      /* Set automatic margins on right/left */
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: justify;
+}
+
+.card-transparent {
+  /* background-color: #E7EBEE; */
+  padding: 40px;
+  box-shadow: 0px 01px 01px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card-transparent .content-justify {
+  text-align: center;
+}
+
+body {
+  background: #E7EBEE;
+}
+
+h1 {
+  color: #F3A712;
+}
+
+p, h2, ul, li {
+  color: #55505C;
+  font-family: 'Inconsolata', monospace;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.content-justify {
+  text-align: justify;
+}
+
+img {
+  border-radius: 30% 70% 70% 30% / 30% 57% 43% 70%;
+  /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+  width: 250px;
+  border: 5px solid #F3A712;
+}
+
+.button-orange {
+  color: white;
+  background: #E4572E;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+/* .fa-brands {
+  background-color: #E4572E;
+} */
+
+/* a {
+  text-align: center
+} */
+
+i {
+  color: #E4572E;
+  font-size: 50px;
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 20px;
+}
